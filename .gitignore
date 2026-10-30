@@ -19,6 +19,10 @@ keystore.properties
 hs_err_pid*.log
 *.hprof
 
+# APK artefacts
+*.apk
+*.aab
+
 # OS
 .DS_Store
 Thumbs.db

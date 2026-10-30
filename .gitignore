@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local config
+local.properties
+*.iml
+.idea/
+captures/
+
+# Signing
+*.jks
+*.keystore
+keystore.properties
+
+# Logs and dumps
+*.log
+hs_err_pid*.log
+*.hprof
+
+# OS
+.DS_Store
+Thumbs.db
+
+# QA screenshots (only the ones the README uses are tracked)
+shots/*
+!shots/b2.png
